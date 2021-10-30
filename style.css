@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Montserrat', sans-serif;;
 }
 
 body {
@@ -78,16 +78,15 @@ img {
 }
 
 .header {
-  margin: 1rem;
-  padding: 2rem;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0rem 2rem 0rem;
+  padding: 2rem;
+  width: 100%;
   background: rgb(255,255,255);
+  text-align: center;
 }
-
-
 
 nav {
   width: 100%;
@@ -127,29 +126,11 @@ nav ul li{
   font-style: italic;
 }
 
-@media screen and (max-width:600px){
-  .card_container{
-    display: flex;
+@media screen and (max-width:670px){
+  .header{
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
   }
-
-  .portrait{
-    margin: 0.5rem;
-    width: 100px;
-  }
-
-  .mainContent {
-    width: 95%;
-  }
-
-  .point {
-    margin: 0;
-    margin-top: 1rem;
-  }
-
-  #bio{
-    flex-direction: column;
-  }
-
 
 }
